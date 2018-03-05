@@ -1,0 +1,55 @@
+html{
+	background-image: url(daftpunk.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+body{
+	font-family: Montserrat;
+}
+
+header{
+	text-align: center;
+	padding-bottom: 75px;
+}
+
+.row{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.key{
+	display: inline-block;
+	border: solid black;
+  	transition: all .1s;
+  	width: 125px;
+  	color: white;
+  	background: #839CA5;
+  	text-shadow: 2px 2px black;
+}
+
+.space{
+	display: inline-block;
+	border: solid black;
+  	transition: all .1s;
+  	width: 530px;
+  	color: white;
+  	background: #DAA520;
+  	text-shadow: 2px 2px black;
+  	font-size: 20px;
+}
+
+.playing{
+	transform: scale(1.1);
+	border-color: green;
+	box-shadow: 0 0 10px green;
+}
+
+kbd{
+	display: block;
+	font-size: 20px;
+}
+
+span{
+	font-size: 90%;
+}
